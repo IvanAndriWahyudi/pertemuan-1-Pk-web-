@@ -25,8 +25,7 @@ h2 {
 ul,
 ol,
 img,
-p,
-table {
+p {
   display: block;
   max-width: 500px;
   margin-bottom: 0;
@@ -61,4 +60,29 @@ table {
 
 #navbar li a:hover {
   background-color: black;
+}
+
+table tr td {
+  border: 1px solid;
+}
+
+table {
+  max-width: 500px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+table tr th {
+  background-color: #333;
+  color: white;
+}
+
+table th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+table tr:hover {
+  background-color: #f5f5f5;
 }
