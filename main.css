@@ -10,10 +10,12 @@ body {
 hr {
   margin-top: 50px;
   margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
   border-width: 15px;
   border-style: none;
   border-top-style: dotted;
-  width: 30%;
+  width: 40%;
   border-color: salmon;
 }
 
@@ -26,6 +28,7 @@ ul,
 ol,
 img,
 p {
+  text-align: justify;
   display: block;
   max-width: 500px;
   margin-bottom: 0;
@@ -35,6 +38,7 @@ p {
 }
 
 #navbar {
+  margin-top: 30px;
   list-style-type: none;
   margin-bottom: 40px;
   padding: 0;
@@ -44,13 +48,15 @@ p {
 
 #navbar li {
   float: left;
+  padding: 6px;
 }
 
 #navbar li a {
+  margin-top: 25px;
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 20px;
+  padding: 14px;
   text-decoration: none;
 }
 
