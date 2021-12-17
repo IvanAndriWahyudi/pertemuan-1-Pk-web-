@@ -62,28 +62,32 @@ p {
   background-color: black;
 }
 
-table tr td {
+.tabel1 {
+  margin: auto;
+}
+
+.table tr td {
   border: 1px solid;
 }
 
-table {
+.table {
   max-width: 500px;
   margin: 0 auto;
   border-collapse: collapse;
 }
 
-table tr th {
+.table tr th {
   background-color: #333;
   color: white;
 }
 
-table th,
+.table th,
 td {
   padding: 15px;
   text-align: left;
 }
 
-table tr:hover {
+.table tr:hover {
   background-color: #f5f5f5;
 }
 
