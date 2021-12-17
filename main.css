@@ -11,3 +11,8 @@ hr {
   width: 30%;
   border-color: salmon;
 }
+
+h1,
+h2 {
+  text-align: center;
+}
