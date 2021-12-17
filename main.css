@@ -35,7 +35,7 @@ table {
   margin-bottom: 40px;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: salmon;
 }
 
 #navbar li {
@@ -52,3 +52,8 @@ table {
 
 #navbar li a:last-child {
   float: right;
+}
+
+#navbar li a:hover {
+  background-color: black;
+}
