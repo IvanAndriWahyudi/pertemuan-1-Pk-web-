@@ -31,7 +31,6 @@ table {
 }
 
 #navbar {
-  padding-bottom: -100em;
   list-style-type: none;
   margin-bottom: 40px;
   padding: 0;
@@ -50,3 +49,6 @@ table {
   padding: 14px 20px;
   text-decoration: none;
 }
+
+#navbar li a:last-child {
+  float: right;
