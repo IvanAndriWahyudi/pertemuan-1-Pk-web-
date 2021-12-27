@@ -112,3 +112,13 @@ td {
   color: white;
   margin-top: 40px;
 }
+
+.form-register {
+  position: static;
+  margin-bottom: 100px;
+}
+
+.content-form {
+  max-width: 70%;
+  margin: auto;
+}
