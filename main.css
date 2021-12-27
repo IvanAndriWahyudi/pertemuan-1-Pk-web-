@@ -151,3 +151,14 @@ td {
   width: 33.33%;
   padding: 25px;
 }
+
+@media (max-width: 850px) {
+  .my-portofolio img {
+    width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .my-portofolio img {
+    width: 100%;
+  }
+}
