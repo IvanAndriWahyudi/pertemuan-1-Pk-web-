@@ -27,3 +27,17 @@ console.log('x++ =', x++)
 console.log('++x =', ++x)
 console.log('x-- =', x--)
 console.log('--x =', --x)
+
+//Perbandingan
+console.log("\nPerbandingan");
+let a = 8
+let b = 4
+console.log(a, b)
+console.log('a > b =', a > b)
+console.log('a < b =', a < b)
+console.log('a >= b =', a >= b)
+console.log('a <= b =', a <= b)
+console.log('a == b =', a == b)
+console.log('a != b =', a != b)
+console.log('a === b =', a === b)
+console.log('a !== b =', a !== b)
