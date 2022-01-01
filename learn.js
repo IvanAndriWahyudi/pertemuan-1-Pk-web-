@@ -12,3 +12,18 @@ console.log(phi);
 window.alert("Angka favorit saya adalah : " + myNumber);
 window.alert('Angka favorit saya adalah : ' + myNumber);
 window.alert(`Angka favorit saya adalah : ${myNumber}`);
+
+//Aritmatika
+console.log("\nAritmatika");
+let x = 8
+let y = 4
+console.log(x, y)
+console.log('x + y =', x + y)
+console.log('x - y =', x - y)
+console.log('x * y =', x * y)
+console.log('x / y =', x / y)
+console.log('x % y =', x % y)
+console.log('x++ =', x++)
+console.log('++x =', ++x)
+console.log('x-- =', x--)
+console.log('--x =', --x)
