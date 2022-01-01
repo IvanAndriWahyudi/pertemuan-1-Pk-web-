@@ -107,3 +107,31 @@ console.log(hewan + "\n\n");
 console.log("BUATLAH ARRAY DENGAN TERURUT SECARA KEBALIKANNYA DENGAN MENGGUNAKAN REVERSE() =");
 hewan.reverse();
 console.log(hewan + "\n\n");
+
+//Objek
+console.log("Objek");
+let mobil = {
+    namaPemilik : "Ivan",
+    model : "Honda Civic",
+    type : "Sport",
+    warna : "Putih",
+    noPolosi : "BM2322GD",
+    identitas : function(){
+        return this.namaPemilik +  " " + this.model + " " + this.noPolosi;
+    }
+};
+console.log("AKSESLAH PROPERTI ATAU METHOD YANG ADA DENGAN MENGGUNAKAN TANDA TITIK =");
+console.log("Nama Pemilik = " + mobil.namaPemilik);
+console.log("Model = " + mobil.model);
+console.log("Type = " + mobil.type);
+console.log("Warna = " + mobil.warna);
+console.log("No Polisi = " + mobil.noPolosi);
+console.log("Identitas = " + mobil.identitas() + "\n\n");
+
+console.log("AKSESLAH PROPERTI ATAU METHOD YANG ADA DENGAN MKURUNG SIKU =");
+console.log("Nama Pemilik = " + mobil["namaPemilik"]);
+console.log("Model = " + mobil["model"]);
+console.log("Type = " + mobil["type"]);
+console.log("Warna = " + mobil["warna"]);
+console.log("No Polisi = " + mobil["noPolosi"]);
+console.log("Identitas = " + mobil["identitas"]() + "\n\n");
