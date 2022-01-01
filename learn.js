@@ -135,3 +135,14 @@ console.log("Type = " + mobil["type"]);
 console.log("Warna = " + mobil["warna"]);
 console.log("No Polisi = " + mobil["noPolosi"]);
 console.log("Identitas = " + mobil["identitas"]() + "\n\n");
+
+//Anomali pada Javascript
+console.log("ANOMALI PADA JAVASCRIPT =");
+console.log(0.1 + 0.2 == 0.3)
+console.log(1 + "1")
+console.log(1 - "1")
+console.log(1 < 2 < 3)
+console.log(3 > 2 > 1)
+console.log(null == 0)
+console.log(null > 0)
+console.log(null >= 0)
