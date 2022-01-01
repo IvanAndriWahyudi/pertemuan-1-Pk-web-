@@ -41,3 +41,29 @@ console.log('a == b =', a == b)
 console.log('a != b =', a != b)
 console.log('a === b =', a === b)
 console.log('a !== b =', a !== b)
+
+//Operator Logika
+console.log("\nOperator logika")
+console.log('true && true =', true && true)
+console.log('true && false =', true && false)
+console.log('false && true =', false && true)
+console.log('false && false =', false && false)
+console.log('true || true =', true || true)
+console.log('true || false =', true || false)
+console.log('false || true =', false || true)
+console.log('false || false =', false || false)
+console.log('!true =', !true)
+console.log('!false =', !false)
+
+//Fungsi
+console.log("\nFungsi")
+function luas_persegi(panjang){
+    let lebar = 5;
+    let luas = panjang * lebar;
+    console.log("Panjang = " + panjang)
+    console.log("Lebar + " + lebar)
+    console.log(panjang +" * " + lebar+ " = " + luas)
+
+}
+
+luas_persegi(10);
